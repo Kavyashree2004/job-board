@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+    background-color: #f9f9f9;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0033cc;
+    color: white;
+    padding: 15px 30px;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .navbar nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .auth-buttons a {
+    margin-left: 10px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .login-btn {
+    background: transparent;
+    border: 1px solid white;
+  }
+  
+  .post-btn {
+    background-color: #00cc66;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, #007bff, #3399ff);
+    color: white;
+    text-align: center;
+    padding: 100px 20px 60px;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin: 10px 0;
+  }
+  
+  .hero p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+  }
+  
+  .upload-btn {
+    background-color: #00cc66;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .find-job-btn {
+    background-color: #00cc66;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
